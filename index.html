@@ -9,19 +9,15 @@
   <body
     class="bg-gray-900 text-gray-300 flex items-center justify-center min-h-screen p-4"
   >
-    <!-- Main Container -->
     <div
       class="w-full max-w-2xl bg-gray-800 border border-gray-700 rounded-xl shadow-2xl p-6 sm:p-8 flex flex-col gap-6"
     >
-      <!-- Header Section -->
       <header class="text-center border-b border-gray-700 pb-6">
         <h1 class="text-3xl font-bold text-white">Tokenizer</h1>
         <p class="text-gray-400 mt-2">
           Encode text into tokens or decode tokens back into text.
         </p>
       </header>
-
-      <!-- Input Section -->
       <div class="flex flex-col gap-2">
         <label for="user-input" class="text-sm font-medium text-gray-400"
           >Input</label
@@ -32,8 +28,6 @@
           placeholder="Enter text to encode or token IDs to decode..."
         ></textarea>
       </div>
-
-      <!-- Action Buttons -->
       <div class="flex flex-col sm:flex-row gap-4">
         <button
           id="encode"
@@ -48,8 +42,6 @@
           Decode
         </button>
       </div>
-
-      <!-- Output Section -->
       <div class="flex flex-col gap-2">
         <label for="output-display" class="text-sm font-medium text-gray-400"
           >Result</label
@@ -59,7 +51,6 @@
           class="w-full min-h-[140px] p-4 bg-gray-900 border border-gray-600 rounded-lg font-mono text-gray-400 whitespace-pre-wrap break-words"
           aria-live="polite"
         >
-          <!-- The result of encoding or decoding will appear here. -->
         </div>
       </div>
     </div>
