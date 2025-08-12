@@ -3,7 +3,7 @@
 Live Link : https://tokenizer-nu.vercel.app/
 
 ## Project Overview
-This project is an interactive web application that demonstrates a custom JavaScript tokenizer. It allows users to train a vocabulary from text, encode text into token IDs, and decode IDs back into a string. The UI is a modern, dark theme built with Tailwind CSS.
+This project is an interactive web application that demonstrates a custom JavaScript tokenizer. It allows users encode text into token IDs, and decode IDs back into a string. The UI is a modern, dark theme built with Tailwind CSS.
 
 ## Key Features
 Encode/Decode: Converts text to token IDs and back.
